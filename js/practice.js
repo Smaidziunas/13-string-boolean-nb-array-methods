@@ -139,7 +139,7 @@ inputskaiciusEl.addEventListener('input', (event) => {
     // });
     console.log('number', parseInt(inputskaiciusEl.value));
     // makes the the value output a number.
-    
+
     // h2El.textContent = 'inputskaiciusEl';
   // }
 });
@@ -154,6 +154,35 @@ inputskaiciusEl.addEventListener('input', (event) => {
 <li>one</li>
 </ul>
 prideti kiekvienam elementui zodeli 'was ' priekyje <li>was one</li> */}
+
+const theOne = document.getElementById('theOne');
+const allLis = theOne.querySelectorAll('li');
+// const allLis = theOne.children;  //kitas budas
+console.log('allLis ===', allLis);
+
+// function addWordToLis () {
+//   for (let liEl of allLis){
+  // changeOneli(liEl); //arba
+        // const nowText = liEl.textContent;
+        // const changedText = `now ${nowText}`;
+        // liEl.textContent = changedText;
+      
+//   }
+// }
+
+// addWordToLis()
+
+
+
+function changeOneli (liElement) {
+  // const nowText = liElement.textContent;
+  // const changedText = `now ${nowText}`;
+  // liElement.insertAdjacentText('afterbegin', 'was ')
+}
+
+
+
+
 
 
 { 7. //pranesti kad ok jeigu visos salygos atitinka
